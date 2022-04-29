@@ -33,7 +33,7 @@ namespace T5._Square_With_Maximum_Sum
 
             for (int row = 0; row < matrix.GetLength(0); row++)
             {
-                for (int col = row; col < matrix.GetLength(1); col++)
+                for (int col = 0; col < matrix.GetLength(1); col++)
                 {
                     if (col + 1 == cols || row + 1 == rows)
                     {
